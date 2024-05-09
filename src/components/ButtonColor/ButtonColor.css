@@ -1,0 +1,27 @@
+.buttonColor {
+    min-width: 85px;
+    min-height: 35px;
+    appearance: none;
+    border: 0;
+    border-radius: 30px;
+    background: #2c1fa2;
+    padding: 8px 16px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: inherit;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    margin: 0px 10px 0px 10px;
+}
+
+.buttonColor:hover {
+    background: #1d49aa;
+}
+
+.buttonColor[disabled] {
+    color: #d2d5db;
+    background: #6c7589;
+    cursor: not-allowed;
+}
