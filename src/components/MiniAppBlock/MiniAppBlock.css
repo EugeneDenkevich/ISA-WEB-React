@@ -1,0 +1,12 @@
+.mini-app-block {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: start;
+
+    min-width: 666px;
+    max-width: 1000px;
+
+    margin: 0 auto;
+
+    background-color: #fafafa;
+}

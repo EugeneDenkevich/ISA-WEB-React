@@ -1,0 +1,33 @@
+.mini-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    direction: ltr;
+
+    margin: 10px 25px;
+
+    width: 280px;
+    height: 180px;
+
+    background-color: #ffffff;
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+}
+
+.name {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.descriptiont {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.author {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
